@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chess</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="wrap">
+        <h1 class="title">Chess</h1>
+
+        <div class="status-bar">
+            <div class="turn-indicator">
+                <span class="turn-swatch" id="turnSwatch"></span>
+                <span id="turnText">White to move</span>
+            </div>
+            <button id="resetBtn" class="reset-btn">New game</button>
+        </div>
+
+        <div class="board-frame">
+            <div class="files">
+                <span>a</span><span>b</span><span>c</span><span>d</span><span>e</span><span>f</span><span>g</span><span>h</span>
+            </div>
+            <div class="board-row">
+                <div class="ranks">
+                    <span>8</span><span>7</span><span>6</span><span>5</span><span>4</span><span>3</span><span>2</span><span>1</span>
+                </div>
+                <div id="board"></div>
+            </div>
+        </div>
+
+        <p id="message" class="message"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
