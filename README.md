@@ -4,6 +4,11 @@ A fully functional browser-based Chess Game built using **HTML**, **CSS**, and *
 
 ---
 
+# For Demo
+ https://zeeshan-9109.github.io/Chess/
+
+ ---
+
 ## 🚀 Features
 
 - ♟️ Complete 8×8 chess board
